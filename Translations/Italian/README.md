@@ -1,52 +1,52 @@
-# 😺 GitHub Guia
+# 😺 Guida GitHub
 
 <details>
-<summary>Translations:</summary>
+<summary>Traduzioni:</summary>
 
-- [Português Brasileiro](a)
-- [Español](a)
-- [French](a)
-- [Italian](a)
+- [English](https://github.com/cestpassion/GitHub/blob/main/README.md)
+- [Español](https://github.com/cestpassion/GitHub/blob/main/Translations/Espanol/README.md)
+- [French](https://github.com/cestpassion/GitHub/blob/main/Translations/French/README.md)
+- [Português Brasileiro](https://github.com/cestpassion/GitHub/blob/main/Translations/PortuguesBrasileiro/README.md)
 </details>
 
-## 🔸 Sobre:
-Este repositório oferece um guia para o uso do Git e GitHub em sistemas **Linux** e **Windows**, abrangendo desde a instalação e configuração inicial até comandos avançados e dicas práticas para o gerenciamento eficiente de repositórios.<br></br>
-Seja você um iniciante que está começando a explorar o Git e o GitHub ou um usuário experiente buscando otimizar seu fluxo de trabalho, aqui você encontrará recursos necessários para aprimorar suas habilidades em controle de versão.
+## 🔸 Informazioni:
+Questo repository offre una guida per l'uso di Git e GitHub su sistemi **Linux** e **Windows**, coprendo tutto, dall'installazione e configurazione iniziale a comandi avanzati e suggerimenti pratici per una gestione efficiente dei repository.<br></br>
+Che tu sia un principiante che sta iniziando a esplorare Git e GitHub o un utente esperto alla ricerca di ottimizzare il tuo flusso di lavoro, troverai qui le risorse necessarie per migliorare le tue competenze nel controllo delle versioni.
 <br></br>
 
-## 💻 Sistema Operacional:
-Selecione seu sistema operacional atual e siga as instruções.
-* ### [Linux](a)
+## 💻 Sistema Operativo:
+Seleziona il tuo sistema operativo attuale e segui le istruzioni.
+* ### [Linux](https://github.com/cestpassion/GitHub/blob/main/Translations/Italian/Linux.md)
   * **[Git](a)**
     * [Download](a)
-    * [Como usar](a)
-  * **[Configurar seu usuário](a)**
-  * **[Chave SSH](a)**
-  * **[Repositórios](a)**
-    * [Comandos](a)
+    * [Come usare](a)
+  * **[Configura il tuo utente](a)**
+  * **[Chiave SSH](a)**
+  * **[Repository](a)**
+    * [Comandi](a)
     * [Cheat Sheets](a)
 <br></br>
-* ### [Windows](a)
+* ### [Windows](https://github.com/cestpassion/GitHub/blob/main/Translations/Italian/Windows.md)
   * **[GitHub Desktop](a)**
     * [Download](a)
-    * [Como usar](a)
+    * [Come usare](a)
   * **[Git](a)**
     * [Download](a)
-    * [Como usar](a)
-  * **[Configurar seu usuário](a)**
-  * **[Chave SSH](a)**
-  * **[Repositórios](a)**
-    * [Comandos](a)
+    * [Come usare](a)
+  * **[Configura il tuo utente](a)**
+  * **[Chiave SSH](a)**
+  * **[Repository](a)**
+    * [Comandi](a)
     * [Cheat Sheets](a)
 <br></br>
 
-## Indicações:
-* [GeeksforGeeks](https://olimpiada.ic.unicamp.br/pratique/pu/) 
-* [Git Book](https://git-scm.com/book/pt-br/v2) 
+## Riferimenti:
+* [GeeksforGeeks](https://www.geeksforgeeks.org/)
+* [Git Book](https://git-scm.com/book/it/v2)
 
-## Contribuições:
-Este repositório é um reflexo contínuo do aprendizado, e contribuições ou melhorias são bem-vindas. Se você identificar algo que possa ser melhorado ou tiver sugestões, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+## Contribuzioni:
+Questo repository è una riflessione continua dell'apprendimento e le contribuzioni o miglioramenti sono benvenuti. Se identifichi qualcosa che può essere migliorato o hai suggerimenti, sentiti libero di aprire un'issue o inviare una pull request.
 <br>
 
-## License
-[MIT License](LICENSE)
+## Licenza
+[MIT License](https://github.com/cestpassion/GitHub/blob/main/LICENSE)
