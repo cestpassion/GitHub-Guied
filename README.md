@@ -3,10 +3,10 @@
 <details>
 <summary>Translations:</summary>
 
-- [Português Brasileiro](a)
-- [Español](a)
-- [French](a)
-- [Italian](a)
+- [Español](https://github.com/cestpassion/GitHub/blob/main/Translations/Espanol/README.md)
+- [French](https://github.com/cestpassion/GitHub/blob/main/Translations/French/README.md)
+- [Italian](https://github.com/cestpassion/GitHub/blob/main/Translations/Italian/README.md)
+- [Português Brasileiro](https://github.com/cestpassion/GitHub/blob/main/Translations/PortuguesBrasileiro/README.md)
 </details>
 
 ## 🔸 About:
@@ -16,7 +16,7 @@ Whether you're a beginner just starting to explore Git and GitHub or an experien
 
 ## 💻 Operating System:
 Select your current operating system and follow the instructions.
-* ### [Linux](a)
+* ### [Linux](https://github.com/cestpassion/GitHub/blob/main/Linux.md)
   * **[Git](a)**
     * [Download](a)
     * [How to Use](a)
@@ -26,7 +26,7 @@ Select your current operating system and follow the instructions.
     * [Commands](a)
     * [Cheat Sheets](a)
 <br></br>
-* ### [Windows](a)
+* ### [Windows](https://github.com/cestpassion/GitHub/blob/main/Windows.md)
   * **[GitHub Desktop](a)**
     * [Download](a)
     * [How to Use](a)
@@ -41,7 +41,7 @@ Select your current operating system and follow the instructions.
 <br></br>
 
 ## Indications:
-* [GeeksforGeeks](https://olimpiada.ic.unicamp.br/pratique/pu/)
+* [GeeksforGeeks](https://www.geeksforgeeks.org/)
 * [Git Book](https://git-scm.com/book/en/v2)
 
 ## Contributions:
