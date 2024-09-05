@@ -6,7 +6,7 @@
 - [English](https://github.com/cestpassion/GitHub/blob/main/README.md)
 - [Español](https://github.com/cestpassion/GitHub/blob/main/Translations/Espanol/README.md)
 - [French](https://github.com/cestpassion/GitHub/blob/main/Translations/French/README.md)
-- [Português Brasileiro](https://github.com/cestpassion/GitHub/blob/main/Translations/PortuguesBrasileiro/README.md)
+- [Italian](https://github.com/cestpassion/GitHub/blob/main/Translations/Italian/README.md)
 </details>
 
 ## 🔸 Sobre:
