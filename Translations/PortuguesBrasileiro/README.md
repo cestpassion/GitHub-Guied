@@ -1,12 +1,12 @@
 # 😺 GitHub Guia
 
 <details>
-<summary>Translations:</summary>
+<summary>Traduções:</summary>
 
-- [Português Brasileiro](a)
-- [Español](a)
-- [French](a)
-- [Italian](a)
+- [English](https://github.com/cestpassion/GitHub/blob/main/README.md)
+- [Español](https://github.com/cestpassion/GitHub/blob/main/Translations/Espanol/README.md)
+- [French](https://github.com/cestpassion/GitHub/blob/main/Translations/French/README.md)
+- [Português Brasileiro](https://github.com/cestpassion/GitHub/blob/main/Translations/PortuguesBrasileiro/README.md)
 </details>
 
 ## 🔸 Sobre:
@@ -16,7 +16,7 @@ Seja você um iniciante que está começando a explorar o Git e o GitHub ou um u
 
 ## 💻 Sistema Operacional:
 Selecione seu sistema operacional atual e siga as instruções.
-* ### [Linux](a)
+* ### [Linux](https://github.com/cestpassion/GitHub/blob/main/Translations/PortuguesBrasileiro/Linux.md)
   * **[Git](a)**
     * [Download](a)
     * [Como usar](a)
@@ -26,7 +26,7 @@ Selecione seu sistema operacional atual e siga as instruções.
     * [Comandos](a)
     * [Cheat Sheets](a)
 <br></br>
-* ### [Windows](a)
+* ### [Windows](https://github.com/cestpassion/GitHub/blob/main/Translations/PortuguesBrasileiro/Windows.md)
   * **[GitHub Desktop](a)**
     * [Download](a)
     * [Como usar](a)
@@ -41,7 +41,7 @@ Selecione seu sistema operacional atual e siga as instruções.
 <br></br>
 
 ## Indicações:
-* [GeeksforGeeks](https://olimpiada.ic.unicamp.br/pratique/pu/) 
+* [GeeksforGeeks](https://www.geeksforgeeks.org/)
 * [Git Book](https://git-scm.com/book/pt-br/v2) 
 
 ## Contribuições:
@@ -49,4 +49,4 @@ Este repositório é um reflexo contínuo do aprendizado, e contribuições ou m
 <br>
 
 ## License
-[MIT License](LICENSE)
+[MIT License](https://github.com/cestpassion/GitHub/blob/main/LICENSE)
