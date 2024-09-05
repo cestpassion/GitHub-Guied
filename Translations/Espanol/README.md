@@ -40,7 +40,7 @@ Selecciona tu sistema operativo actual y sigue las instrucciones.
     * [Cheat Sheets](a)
 <br></br>
 
-## Referencias:
+## Indicaciones:
 * [GeeksforGeeks](https://www.geeksforgeeks.org/)
 * [Git Book](https://git-scm.com/book/es/v2)
 
