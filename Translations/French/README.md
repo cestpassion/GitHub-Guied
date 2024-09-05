@@ -9,12 +9,12 @@
 - [Português Brasileiro](https://github.com/cestpassion/GitHub/blob/main/Translations/PortuguesBrasileiro/README.md)
 </details>
 
-## 🔸 À propos :
+## 🔸 À propos:
 Ce dépôt fournit un guide pour utiliser Git et GitHub sur les systèmes **Linux** et **Windows**, couvrant tout, de l'installation et la configuration initiale aux commandes avancées et conseils pratiques pour une gestion efficace des dépôts.<br></br>
 Que vous soyez un débutant qui commence à explorer Git et GitHub ou un utilisateur expérimenté cherchant à optimiser son flux de travail, vous trouverez ici les ressources nécessaires pour améliorer vos compétences en gestion de version.
 <br></br>
 
-## 💻 Système d'exploitation :
+## 💻 Système d'exploitation:
 Sélectionnez votre système d'exploitation actuel et suivez les instructions.
 * ### [Linux](https://github.com/cestpassion/GitHub/blob/main/Translations/French/Linux.md)
   * **[Git](a)**
@@ -40,11 +40,11 @@ Sélectionnez votre système d'exploitation actuel et suivez les instructions.
     * [Cheat Sheets](a)
 <br></br>
 
-## Références :
+## indications:
 * [GeeksforGeeks](https://www.geeksforgeeks.org/)
 * [Git Book](https://git-scm.com/book/fr/v2)
 
-## Contributions :
+## Contributions:
 Ce dépôt est une réflexion continue de l'apprentissage, et les contributions ou améliorations sont les bienvenues. Si vous identifiez quelque chose qui peut être amélioré ou avez des suggestions, n'hésitez pas à ouvrir une issue ou à soumettre une demande de tirage.
 <br>
 
