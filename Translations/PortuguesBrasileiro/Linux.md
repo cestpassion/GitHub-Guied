@@ -48,7 +48,6 @@ Para configurar seu nome e e-mail, que serão usados em seus commits, use os seg
 git config --global user.name "Seu Nome"
 git config --global user.email "seu-email@example.com"
 ```
-<br>
 
 ### Para configuração local (válida apenas para um repositório específico):
 
@@ -80,12 +79,13 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
    ```
 
 4. **E adicione no GitHub em:**
-### Settings > SSH and GPG keys > New SSH key
+   
+    `Settings > SSH and GPG keys > New SSH key`
 <br>
 
 ## Comandos - Repositórios
 
-### Criar um novo repositório:
+### ➣ Criar um novo repositório:
   
   ```bash
   git init
@@ -94,7 +94,7 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
 <br>
 <br>
 
-### Clonar um repositório:
+### ➣ Clonar um repositório:
   
   ```bash
   git clone <url-do-repositorio>
@@ -105,7 +105,7 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
 <br>
 <br>
 
-### Adicionar um novo repositório remoto:
+### ➣ Adicionar um novo repositório remoto:
   
   ```bash
   git remote add origin <url-do-repositorio>
@@ -116,7 +116,7 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
 <br>
 <br>
 
-### Listar repositórios remotos:
+### ➣ Listar repositórios remotos:
   
   ```bash
   git remote -v
