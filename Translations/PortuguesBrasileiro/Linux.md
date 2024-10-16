@@ -1,8 +1,18 @@
-# Git Tutorial Para Linux
+# Git Tutorial 
 
-## Git
+## Sumário:
+- [Download do Git no Linux](a)
+- [Download do Git no Windows](a)
+- [Configurar seu Usuário](a)
+- [Chave SSH](a)
+- [Comandos - Repositórios](a)
+- [Banches](a)
+- [Mensagens para Commits](a)
+- [Cheat Sheets](a)
 
-### Download
+
+## Download Git Linux
+
 Para instalar o Git no Linux, você pode usar o gerenciador de pacotes da sua distribuição. Aqui estão os comandos para algumas distribuições populares:
 <br>
 
@@ -12,6 +22,7 @@ Para instalar o Git no Linux, você pode usar o gerenciador de pacotes da sua di
   sudo apt update
   sudo apt install git
   ```
+###### É importante rodar o comando `sudo apt update` antes de instalar algo no linux por alguns motivos fundamentais: atualiza a lista de pacotes disponíveis; garante que você está instalando a versão mais recente; sincroniza com os repositórios; melhorias de segurança; evita problemas de dependência.
 
 - **Verificar a versão instalada**:
  
@@ -20,12 +31,29 @@ Para instalar o Git no Linux, você pode usar o gerenciador de pacotes da sua di
   ```
 <br>
 
-## Configurar seu usuário
+## Download Git Linux
+
+blablabla
+<br>
+
+## Configurar seu Usuário
+
 Para configurar seu nome e e-mail, que serão usados em seus commits, use os seguintes comandos:
+<br>
+
+- **Para configuração global** (válida todos os repositórios do usuário na máquina):
 
 ```bash
 git config --global user.name "Seu Nome"
 git config --global user.email "seu-email@example.com"
+```
+<br>
+
+- **Para configuração local** (válida apenas para um repositório específico):
+
+```bash
+git config user.name "Seu Nome"
+git config user.email "seu-email@exemplo.com"
 ```
 <br>
 
@@ -49,15 +77,22 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
    ```bash
    cat ~/.ssh/id_rsa.pub
    ```
-4. E adicione no GitHub em **Settings > SSH and GPG keys > New SSH key**.
+
+4. **E adicione no GitHub em:** Settings > SSH and GPG keys > New SSH key
 <br>
 
-## Repositórios
+## Comandos - Repositórios
 
-### Comandos Básicos
+#### Criar um novo repositório:
+  
+  ```bash
+  git init
+  ```
+  Inicializa um novo repositório Git no diretório atual. Isso cria um diretório `.git` que armazena todos os arquivos e metadados do repositório.
 <br>
 
-- **Clonar um repositório**:
+
+#### Clonar um repositório:
   
   ```bash
   git clone <url-do-repositorio>
@@ -67,7 +102,7 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   *Exemplo:* `git clone https://github.com/usuario/repositorio.git`
 <br>
 
-- **Adicionar um novo repositório remoto**:
+#### Adicionar um novo repositório remoto:
   
   ```bash
   git remote add origin <url-do-repositorio>
@@ -77,7 +112,7 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   *Exemplo:* `git remote add origin https://github.com/usuario/repositorio.git`
 <br>
 
-- **Listar repositórios remotos**:
+#### Listar repositórios remotos:
   
   ```bash
   git remote -v
@@ -85,7 +120,36 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   Mostra a lista de repositórios remotos associados ao repositório local, incluindo suas URLs.
 <br>
 
-- **Verificar o status dos arquivos**:
+#### Remover um repositório remoto:
+  
+  ```bash
+  git remote remove <nome-do-repositorio>
+  ```
+  Remove um repositório remoto associado ao repositório local. Substitua `<nome-do-repositorio>` pelo nome do repositório remoto que você deseja remover.
+
+  *Exemplo:* `git remote remove origin`
+<br>
+
+#### Alterar a URL de um repositório remoto:
+  
+  ```bash
+  git remote set-url origin <nova-url-do-repositorio>
+  ```
+  Atualiza a URL associada ao repositório remoto `origin`. Use este comando se a URL do repositório remoto mudar.
+<br>
+
+#### Renomear um Repositório Remoto:
+  
+  Para 
+  ```bash
+  git remote rename <nome-antigo> <nome-novo>
+  ```
+  Altera o nome de um repositório remoto.
+
+  *Exemplo:* `git remote rename origin upstream`
+<br>
+
+#### Verificar o status dos arquivos:
   
   ```bash
   git status
@@ -93,7 +157,7 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   Exibe o status dos arquivos no repositório, mostrando quais arquivos foram modificados, quais estão prontos para o commit e quais não estão sendo rastreados.
 <br>
 
-- **Adicionar arquivos ao estágio**:
+#### Adicionar arquivos ao estágio (para serem comitados):
   
   ```bash
   git add <arquivo>
@@ -110,17 +174,17 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   Adiciona todos os arquivos modificados.
 <br>
 
-- **Fazer commit das mudanças**:
+#### Fazer commit das mudanças:
   
   ```bash
   git commit -m "Mensagem do commit"
   ```
   Registra as mudanças no repositório com uma mensagem descritiva. A mensagem deve explicar o que foi alterado.
 
-  *Exemplo:* `git commit -m "Corrige bug na função de login"`
+  *Exemplo:* `git commit -m "[FEAT][WIP] Introduz um novo método de pagamento"`
 <br>
 
-- **Enviar mudanças para o repositório remoto**:
+#### Commitar:
   
   ```bash
   git push
@@ -128,7 +192,7 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   Envia as mudanças do repositório local para o repositório remoto associado. Por padrão, o comando envia para o branch atual.
 <br>
 
-- **Puxar mudanças do repositório remoto**:
+#### Puxar mudanças do repositório remoto:
   
   ```bash
   git pull
@@ -136,18 +200,7 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   Baixa e integra as mudanças do repositório remoto para o repositório local. Combina `git fetch` e `git merge` em um único comando.
 <br>
 
-### Comandos Avançados
-<br>
-
-- **Criar um novo repositório**:
-  
-  ```bash
-  git init
-  ```
-  Inicializa um novo repositório Git no diretório atual. Isso cria um diretório `.git` que armazena todos os arquivos e metadados do repositório.
-<br>
-
-- **Buscar atualizações do repositório remoto**:
+#### Buscar atualizações do repositório remoto:
   
   ```bash
   git fetch
@@ -155,7 +208,7 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   Baixa as mudanças do repositório remoto sem integrá-las ao repositório local. É útil para verificar atualizações antes de realizar um merge ou rebase.
 <br>
 
-- **Mesclar mudanças do repositório remoto**:
+#### Mesclar mudanças do repositório remoto:
   
   ```bash
   git merge <branch>
@@ -165,6 +218,8 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   *Exemplo:* `git merge feature/nova-funcionalidade`
 <br>
 
+## Branches
+
 - **Rebase as mudanças de um branch**:
   
   ```bash
@@ -173,35 +228,6 @@ Para autenticar-se com repositórios remotos usando SSH, siga estes passos:
   Reaplica suas mudanças sobre o branch especificado. O rebase é útil para manter um histórico linear ao integrar mudanças.
 
   *Exemplo:* `git rebase main`
-<br>
-
-- **Remover um repositório remoto**:
-  
-  ```bash
-  git remote remove <nome-do-repositorio>
-  ```
-  Remove um repositório remoto associado ao repositório local. Substitua `<nome-do-repositorio>` pelo nome do repositório remoto que você deseja remover.
-
-  *Exemplo:* `git remote remove origin`
-<br>
-
-- **Alterar a URL de um repositório remoto**:
-  
-  ```bash
-  git remote set-url origin <nova-url-do-repositorio>
-  ```
-  Atualiza a URL associada ao repositório remoto `origin`. Use este comando se a URL do repositório remoto mudar.
-<br>
-
-- **Renomear um Repositório Remoto**:
-  
-  Para 
-  ```bash
-  git remote rename <nome-antigo> <nome-novo>
-  ```
-  Altera o nome de um repositório remoto.
-
-  *Exemplo:* `git remote rename origin upstream`
 <br>
 
 ## Cheat Sheets
