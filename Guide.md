@@ -1,5 +1,3 @@
-Here’s the translation of your Git tutorial into English:
-
 # 😽 Git Tutorial
 <br>
 
