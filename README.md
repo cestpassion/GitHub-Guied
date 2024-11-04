@@ -14,31 +14,8 @@ This repository provides a guide for using Git and GitHub on **Linux** and **Win
 Whether you're a beginner just starting to explore Git and GitHub or an experienced user looking to optimize your workflow, you'll find the resources needed to enhance your version control skills here.
 <br></br>
 
-## 💻 Operating System:
-Select your current operating system and follow the instructions.
-* ### [Linux](https://github.com/cestpassion/GitHub/blob/main/Linux.md)
-  * **[Git](a)**
-    * [Download](a)
-    * [How to Use](a)
-  * **[Configure Your User](a)**
-  * **[SSH Key](a)**
-  * **[Repositories](a)**
-    * [Commands](a)
-    * [Cheat Sheets](a)
-<br></br>
-* ### [Windows](https://github.com/cestpassion/GitHub/blob/main/Windows.md)
-  * **[GitHub Desktop](a)**
-    * [Download](a)
-    * [How to Use](a)
-  * **[Git](a)**
-    * [Download](a)
-    * [How to Use](a)
-  * **[Configure Your User](a)**
-  * **[SSH Key](a)**
-  * **[Repositories](a)**
-    * [Commands](a)
-    * [Cheat Sheets](a)
-<br></br>
+>## 📝 [Guide](https://github.com/cestpassion/GitHub-Guied/blob/main/Guide.md)
+<br>
 
 ## Indications:
 * [GeeksforGeeks](https://www.geeksforgeeks.org/)
