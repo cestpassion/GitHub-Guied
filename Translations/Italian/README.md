@@ -14,31 +14,8 @@ Questo repository offre una guida per l'uso di Git e GitHub su sistemi **Linux**
 Che tu sia un principiante che sta iniziando a esplorare Git e GitHub o un utente esperto alla ricerca di ottimizzare il tuo flusso di lavoro, troverai qui le risorse necessarie per migliorare le tue competenze nel controllo delle versioni.
 <br></br>
 
-## 💻 Sistema Operativo:
-Seleziona il tuo sistema operativo attuale e segui le istruzioni.
-* ### [Linux](https://github.com/cestpassion/GitHub/blob/main/Translations/Italian/Linux.md)
-  * **[Git](a)**
-    * [Download](a)
-    * [Come usare](a)
-  * **[Configura il tuo utente](a)**
-  * **[Chiave SSH](a)**
-  * **[Repository](a)**
-    * [Comandi](a)
-    * [Cheat Sheets](a)
-<br></br>
-* ### [Windows](https://github.com/cestpassion/GitHub/blob/main/Translations/Italian/Windows.md)
-  * **[GitHub Desktop](a)**
-    * [Download](a)
-    * [Come usare](a)
-  * **[Git](a)**
-    * [Download](a)
-    * [Come usare](a)
-  * **[Configura il tuo utente](a)**
-  * **[Chiave SSH](a)**
-  * **[Repository](a)**
-    * [Comandi](a)
-    * [Cheat Sheets](a)
-<br></br>
+## 📝 [Guida](https://github.com/cestpassion/GitHub-Guied/blob/main/Translations/Italian/Guida.md)
+<br>
 
 ## Indicazioni:
 * [GeeksforGeeks](https://www.geeksforgeeks.org/)
