@@ -130,6 +130,83 @@ A chave SSH é uma forma segura de autenticação que permite que você se conec
 ---
 <br>
 
+## 🔶 Criando e Usando Aliases no Git
+
+Aliases no Git são atalhos que facilitam a execução de comandos, substituindo comandos longos por versões mais curtas e fáceis de lembrar.
+
+## 🎯 Sintaxe
+```sh
+git config [--local | --global | --system] alias.<comando-curto> "<comando-longo>"
+```
+
+### 📌 Explicação dos parâmetros:
+- `git config`: Modifica as configurações do Git.
+- `--local | --global | --system`: Define onde a configuração será salva.
+  - `--local`: Apenas para o repositório atual (`.git/config`).
+  - `--global`: Para todos os repositórios do usuário (`~/.gitconfig`).
+  - `--system`: Para todos os usuários do sistema (`/etc/gitconfig`).
+- `alias.<comando-curto>`: Nome do atalho.
+- `"<comando-longo>"`: Comando Git real que será executado.
+
+---
+
+## 🔹 Exemplos Práticos
+
+### ✅ Criar um alias global para `git status`:
+```sh
+git config --global alias.s "status"
+```
+Agora, ao invés de `git status`, você pode simplesmente usar:
+```sh
+git s
+```
+
+### ✅ Criar um alias local para um log formatado:
+```sh
+git config --local alias.l "log --oneline --graph --decorate --all"
+```
+Agora, `git l` mostrará um histórico visual do repositório, mas apenas no repositório atual.
+
+### ✅ Criar um alias para adicionar e commitar de uma vez:
+```sh
+git config --global alias.ac '!git add . && git commit -m'
+```
+Agora, para adicionar e commitar, basta executar:
+```sh
+git ac "mensagem do commit"
+```
+
+### ✅ Criar um alias para visualizar o histórico de commits de forma compacta:
+```sh
+git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+```
+Agora, ao rodar `git hist`, você verá um histórico de commits formatado de maneira mais organizada e visual:
+```sh
+* 3a1b2c3 2025-03-07 | Corrigido bug na autenticação (HEAD -> main) [Bruna Furtado]
+* b2c3d4e 2025-03-06 | Melhorando a performance da API [Carlos Silva]
+* a1b2c3d 2025-03-05 | Adicionando suporte a PostgreSQL [Ana Souza]
+```
+Esse alias ajuda a:
+- 🔍 **Manter o histórico mais limpo**
+- 🚀 **Facilitar a leitura dos commits**
+- 📊 **Visualizar melhor a estrutura do repositório**
+- ⏳ **Economizar tempo ao verificar o histórico**
+---
+
+### 🔍 Como Listar os Aliases Criados?
+Para ver os aliases configurados, use:
+```sh
+git config --global --list | grep alias
+```
+
+### ❌ Como Remover um Alias?
+Caso queira remover um alias, use:
+```sh
+git config --global --unset alias.<comando-curto>
+```
+---
+<br>
+
 ## 🔶 Comandos - Repositórios
 <br>
 
