@@ -69,9 +69,24 @@ git config --global user.email "seu-email@example.com"
 ### 🔹 Para configuração local (válida apenas para um repositório específico):
 
 ```bash
-git config user.name "Seu Nome"
-git config user.email "seu-email@exemplo.com"
+git config --local user.name "Seu Nome"
+git config --local user.email "seu-email@exemplo.com"
 ```
+<br>
+
+### 🔹 Para configuração em nível de sistema (válida para todos os repositórios de todos usuário da máquina):
+
+```bash
+git config --system user.name "Seu Nome"
+git config --system user.email "seu-email@example.com"
+```
+<br>
+
+>### ⚠️OBS: As configurações serão aplicadas na seguinte ordem:
+>
+>- Caso tenha local, prevalece local;
+>- Caso contrário, se tiver global, prevalece global;
+>- Se não, prevalece a do sistema.
 ---
 <br>
 
