@@ -55,6 +55,10 @@ Para instalar o Git no Windows:
 ## 🔶 Configurar seu Usuário
 <br>
 
+>⚠️OBS:
+>- Para colar texto no terminal do Git Bash é necessário pressionar: 'shift + Insert".
+>- E para copiar: 'ctrl + Insert'.
+
 Para configurar seu nome e e-mail, que serão usados em seus commits, use os seguintes comandos:
 <br>
 
